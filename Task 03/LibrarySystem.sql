@@ -180,10 +180,7 @@ RIGHT JOIN Books ON Categories_Books.book_ID = Books.book_ID
 RIGHT JOIN Categories ON Categories_Books.category_ID = Categories.category_ID;
 
 
-
-
 SELECT Books.bookName, Categories.categoryName
 FROM Categories_Books
 FULL OUTER JOIN Books ON Categories_Books.book_ID = Books.book_ID
 FULL OUTER JOIN Categories ON Categories_Books.category_ID = Categories.category_ID;
-
